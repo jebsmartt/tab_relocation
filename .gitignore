@@ -3,3 +3,6 @@
 
 # zip file for submission
 tab_relocation.zip
+
+# DS Store files
+.DS_Store
