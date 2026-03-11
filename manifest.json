@@ -5,5 +5,17 @@
   "permissions": ["menus", "tabs"],
   "background": {
     "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-teleport@jebsmartt.addons.mozilla.org",
+      "strict_min_version": "109.0"
+    },
+    "gecko_android": {
+        "data_collection_permissions": false
+    },
+    "gecko_desktop": {
+        "data_collection_permissions": false
+    }
   }
 }
