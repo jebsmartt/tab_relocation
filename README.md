@@ -1,3 +1,5 @@
 Tab Relocator adds a menu option to move the active tab to any of your other open Firefox windows with a single click. It eliminates the need for manual dragging, making it easier to manage and organize your open browser windows.
 
 Tab Relocator uses the browser.menus.onShown event to update the right-click menu every time you open it, ensuring the list of windows is always current. By requesting browser window data when the menu is triggered, the extension captures the active tab title for each window to create clear, descriptive labels. When you select a destination, the extension uses the stored window ID to move the tab and bring that window to the front, providing a seamless way to relocate tabs without needing to drag them.
+
+[Firefox Browser Add-Ons Page](https://addons.mozilla.org/en-US/firefox/addon/tab-relocation/)
